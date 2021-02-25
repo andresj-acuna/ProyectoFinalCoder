@@ -1,0 +1,456 @@
+
+.bounce{
+	   animation: bounce;
+	   animation-duration: 1s;
+	   animation-iteration-count: 1;
+       }
+
+/* Funciones */
+
+$base: #FF063D;
+.tSlow{
+	transition: all.5s ease-in-out;
+}
+
+.p-right1{
+	padding-right: 1px;
+}
+
+.p-right2{
+	padding-right: 2px;
+}
+
+.p-right3{
+	padding-right: 3px;
+}
+
+.p-right4{
+	padding-right: 4px;
+}
+
+.p-right5{
+	padding-right: 5px;
+}
+
+.p-right6{
+	padding-right: 6px;
+}
+
+.p-right7{
+	padding-right: 7px;
+}
+
+.p-right8{
+	padding-right: 8px;
+}
+
+.p-right9{
+	padding-right: 9px;
+}
+
+.p-right10{
+	padding-right: 10px;
+}
+
+
+
+.menu {
+	background-color: #000;
+	width: 100%;
+	border-bottom: 1px solid transparent;
+    
+}
+
+ .contenedor-imagen{
+
+
+ 	.hardware-img{
+
+
+ 		p:hover{
+
+      	color: $base;
+      	cursor: pointer;
+      	@extend .tSlow;
+      	font-size: 15px;
+ 		}
+ 	}
+ }
+
+ // .contenedor-imagen{
+ // 	position: relative;
+ // 	z-index: 100;
+ // }
+
+ // .carousel {
+ // 	position: relative;
+ // 	z-index: 0;
+ // }
+
+
+   
+	
+
+
+
+	.menu-inicio 
+	    { margin: 0;
+	      margin-top: 12px;	
+		  // padding: 0;
+		  text-align: right;
+		  @extend.tSlow;
+		  .link-active{
+		  	a{
+		  		color:$base !important;
+		  		&:after{
+		  			width: 100%;
+		  			background-color: $base;
+		  			@extend .tSlow;
+		  		}
+		  	}
+		  }
+
+
+
+		  li {
+		  	display: inline-block;
+		  	padding: 0 10px;
+
+		  	a{
+		  		position: relative;
+		  		text-decoration: none;
+		  		font-size: 16px;
+		  		text-transform: uppercase;
+		  		color: transparentize(white,.2);
+		  		@extend.tSlow;
+
+		  		&:before{
+		  			content:'';
+		  			position: absolute;
+		  			width: 100%;
+		  			background-color: transparent;
+		  			height: 1px;
+		  			@extend.tSlow;
+		  		}
+
+		  		&:after{
+		  			content:'';
+		  			position: absolute;
+		  			top: 100%;
+		  			left: 0;
+		  			width:0%;
+		  			background-color: transparent;
+		  			height: 1px;
+		  			@extend.tSlow;
+		  		}
+
+		  		&:hover{
+		  		    text-decoration: none;
+		  			color: $base;
+		  			&:before{
+		  				width: 0%;
+		  				background-color:$base;
+		  			}
+		  			&:after{
+		  				width:100%;
+		  				background-color: $base;
+
+		  			}
+		  		}
+		  	}
+		  }
+
+	    }
+
+
+	    // .menu-hamburguesa{
+		 	// margin-right: 40px;
+          
+       
+
+.input-group{
+	input{
+		height: 40px;
+		outline: none;
+		box-shadow: none;
+		font-size: 15px;
+	}
+
+	::placeholder{
+		font-size: 15px;
+	}
+}
+
+
+.searchBar {
+	width: 50% !important;
+	margin-right: 300px;
+	display: flex;
+
+
+	.btn-primary {
+    background-color: $base !important;
+    border-radius: 3px;
+    border: none;
+    padding: 0 15px;
+
+}
+
+  .btn-primary:focus{
+  color: #fff;
+  background-color: none;
+  border: 0;
+  border-color: #fff;
+  outline: none !important;
+  box-shadow: none !important;
+  
+}
+
+}
+
+
+  .form-control {
+    
+    border: 1.5px solid #E3E6ED;
+    
+}
+
+
+
+input.form-control:focus {
+    
+    border: solid 1px black;
+    background-color: #F7F8FD;
+
+    outline: none;
+    outline-width:0;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+   }
+
+
+
+
+
+
+       // .searchBar{
+       // 	display: flex;
+       // 	justify-content: center;
+       // 	width: 100%;
+
+       //  .btn {
+       //  	border-right: 0px;
+       //  	padding-right: 0px;
+       //  	margin-right: 0px;
+       //  	margin-bottom: 0;
+       //       }
+
+       //  .btnSearch{
+       //  	color: grey;
+       //  	width: 5%;
+       //  	padding-bottom: 0;
+       //  }
+
+       // }
+
+		 	
+
+	.btn { 
+		 		
+		 		border-right: 2px solid white; 
+		 		padding-right: 40px;
+		 		margin-right: 20px;
+		 		outline: none !important;
+
+		 	}
+
+		 	.btn-lg{
+		 		// padding: 0.5rem 1rem;
+                font-size: 4rem;
+                line-height: 1.5;
+                border-radius: 0.3rem;
+                color: white;
+		 	}
+
+		 	.btn:hover{
+		 		color: $base;
+		 	}
+
+		 	.btn:focus{
+		 		outline: none;
+		 		box-shadow: none;
+		 	}
+
+    .dropdown-item{
+       font-size: 15px;
+    }
+   
+
+   .dropdown-item:hover, .dropdown-item:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: $base;
+}
+		
+		 
+
+
+       
+// 	ul{
+// 		list-style: none;
+// 		display: flex;
+// 	    justify-content: flex-end;
+// 	    align-items: center;
+// 	    height: 100px;
+
+
+// 		li {
+//             display: inline-block;
+//             margin: 0 10px;
+
+
+//             a{
+//             	text-decoration: none;
+//             	color: #fff;
+//             }
+// 		}
+// 	}
+// }
+
+
+.logo {
+      
+      width: 30%;
+
+	img{
+		width: 70%;
+	}
+}
+
+
+.contenedor-imagen{
+	display: flex;
+	width: 100%;
+	
+	// border: 3px solid red;
+	justify-content: center;
+	margin-top: 50px;
+
+   .hardware-img{
+
+    // border: 3px solid blue;
+   	
+   	height: 100px;
+
+
+       li{
+		// border: 3px solid yellow;
+		list-style: none;
+
+		a{
+			text-decoration: none;
+		}
+		
+
+		
+	}
+		
+       img{
+			// border: 3px solid green;
+			width: 50%;
+			display: block;
+			margin: 0 auto;
+			padding-bottom: 5px;
+	       }
+
+       .ram{
+         	align-self: flex-end;
+         	// border: 2px solid red;
+         	transform:translateY(10px);
+         }
+
+         
+
+	   p{  
+		// border: 3px solid orange;
+		  padding-top: 5px;
+		  font-size: 14px;
+		  color: #f2f2f2;
+}
+}
+}
+
+
+	.tumblr:hover{
+		opacity: 1;
+	}
+
+	
+    
+//     .galeria img {
+// 	vertical-align: top;
+// 	width: 20%;
+// 	margin: 20px;
+// 	padding: 5px;
+// 	opacity: 0.9;
+// 	border: 1px solid #484848;
+// 	border: 2px solid orange;
+
+// }
+
+//     .galeria img:hover {
+// 	border: 1px solid #fff;
+// 	opacity: 1;
+// }
+
+   
+
+
+
+
+
+
+
+
+
+@mixin styleNav ($fontsize, $margin) {
+	font-size: $fontsize;
+	margin: $margin;
+}
+
+.estiloNav{
+	@include styleNav(1em, 1em);
+}
+
+@mixin hNav ($height){
+	height: $height;
+}
+
+.heightNav{
+	@include hNav(7em);
+}
+
+.logo{
+	@include hNav(6em);
+}
+
+@mixin mListado ($margin){
+	margin-right: $margin;
+}
+
+.margenListado {
+	@include mListado(2em);
+}
+
+@mixin pRight ($padding){
+	padding-right:($padding);
+}
+
+.redesPadding {
+	@include pRight(15px);
+}
+
+.paddingCarrusel{
+	@include pRight(0.3em);
+}

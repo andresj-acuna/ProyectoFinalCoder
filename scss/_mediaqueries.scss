@@ -1,0 +1,513 @@
+@media screen and (max-width: 1200px){
+	
+    //////////// Index-Menu //////////////
+
+	.searchBar{
+		margin-right: 500px;
+	}
+  
+     .sectionGaleria h1{
+  	margin: 180px 0;
+  	font-size: 45px;
+  }
+  
+  .galeria .centrarh3 h3{
+  	font-size: 35px;
+  }
+
+
+ //  .estiloSection .imagenesProductos{
+	// width: 70%;
+	// // font-family: 'Kufam', cursive;
+
+
+	// // .card-group .card
+
+	// .card{
+	// 	width: 100%;
+	// 	margin: 10px 10px;
+
+	//            img{
+	// 	            width: 60%;
+	
+	//            .zoom{
+	// 			transition: transform .9s;
+	// 		}
+
+
+	// 	}
+
+	// 	p{
+	// 		font-family: 'Open Sans', sans-serif;
+	// 		font-weight: 600;
+	// 	}
+	// }
+    
+
+    // .card:hover{
+    // 	box-shadow: 2px 2px 10px #666;
+    // 	cursor: pointer;
+    // 	transform: scale(1.03);
+    // }
+
+
+.productosInicio .card p {
+	font-size: 12px;
+} 
+
+
+/////////////////////// Nosotros /////////////////////////
+
+.imgNosotros {
+        height: 300px;
+    }
+
+
+/////////////////////// Contacto ////////////////////////
+
+
+.footerContacto{
+	top: 400px;
+}
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 992px){
+
+	//////////// Index-Menu //////////////
+
+
+	.menu-inicio li a{
+		font-size: 14px;
+	}
+
+	.searchBar{
+		display: none;
+	}
+
+
+	.hardware-img{
+		display: none;
+	}
+
+    .contenedor-imagen{
+
+      margin-top: 0;
+      display: flex;
+      justify-content: flex-start;
+
+
+   
+}    
+ 
+
+     .col-lg-12{
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+   
+   .lista-menu{
+   	padding-inline-start: 0px;
+   	margin-block-start: 0;
+    margin-block-end: 0;
+   }
+
+   
+
+   .btn{
+   	 border: none;
+   	 padding-right: 0px; 
+     margin-right: 0px;
+     padding:0 0;
+     margin-left: 30px;
+   }
+
+   .btn-lg{
+   	font-size: 3rem;
+   }
+
+   .btn-group-lg>.btn, .btn-lg {
+   	padding: 0 0;
+   }
+   
+
+  
+     .sectionGaleria h1{
+  	margin: 150px 0;
+  	font-size: 40px;
+  }
+  
+  .galeria .centrarh3 h3{
+    margin: auto;
+
+  	font-size: 25px;
+  }
+
+ // .productosInicio .card-group{
+ 	
+ // }
+
+ // .produtosInicio .card-group .card{
+ // 	padding:5px 0;
+ // }
+
+ // .productosInicio .card img{
+
+ // 	width: 30%;
+
+ // }
+
+
+  .cardGroup{
+   	display: flex;
+   	flex-direction: column;
+   	justify-content: center;
+   	align-items: center;
+   	margin-top: 20px;
+
+   }
+
+
+ .productosInicio  .card{
+		width: 60%;
+		margin: 20px 5px;
+		padding-top: 20px;
+
+
+	           img{
+		            width: 40%;
+		            margin: auto;
+		            // padding-left: 100px;
+	
+	         }
+
+		p{
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 600;
+			font-size: 12px;
+		}
+	}	
+	
+	.contenedorProductos .imagenesProductos .card-group .card-body p {
+	     font-size: 12px;
+}
+
+////////////////////// Servicios //////////////////////////
+
+
+.sectionArmado h3{
+	font-size: 25px;
+	padding-top: 20px;
+}
+
+//////////////////// Nosotros /////////////////////////////
+
+
+.imgNosotros {
+        height: 250px;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+	.menu-inicio li a{
+		font-size: 12px;
+	}
+
+	.btn-lg{
+   	font-size: 2.5rem;
+   }
+
+
+
+     .sectionGaleria h1{
+  	margin: 120px 0;
+  	font-size: 30px;
+  }
+  
+  .galeria .centrarh3 h3{
+
+  	font-size: 12px;
+  	margin-top: 110px;
+  	}
+.galeria .centrarh3 h3 span {
+	border-bottom: 2px solid $base;
+}
+
+   .cardGroup{
+   	display: flex;
+   	flex-direction: column;
+   	justify-content: center;
+   	align-items: center;
+   	margin-top: 20px;
+
+   }
+
+
+ .productosInicio  .card{
+		width: 50%;
+		margin: 20px 5px;
+		padding-top: 20px;
+
+
+	           img{
+		            width: 50%;
+		            margin: auto;
+		            // padding-left: 100px;
+	
+	         }
+
+		p{
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 600;
+			font-size: 12px;
+		}
+	}	
+	
+	/////////////////////// Productos ////////////////////////
+
+.contenedorProductos {
+    	width: 100%;
+    	display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+    	align-items: center;
+
+    	.titulosProductos{
+    		text-align: center;
+
+    		h2{
+    			font-size: 20px;
+    		}
+
+    		hr{
+    			width: 130px;
+    		}
+
+    		h4{
+    			font-size: 15px;
+    		}
+
+    		.marcas {
+    			display: none;
+    		}
+    	}
+    }
+
+.imagenesProductos{
+	width: 100%;
+}
+
+.contenedorProductos .imagenesProductos .card-group .card-body p {
+	     font-size: 11px;
+}
+
+
+
+////////////////// Servicios ////////////////////////
+
+
+.servicios h2{
+		font-size: 50px;
+	}
+
+.servicios hr{
+	margin-bottom: 200px;
+}
+
+.servicios h4{
+	font-size: 15px;
+}
+
+.servicios h3{
+	font-size: 30px;
+}
+
+.sectionArmado h3{
+	font-size: 20px;
+}
+
+
+
+/////////////////// Nosotros ////////////////////////
+
+
+.imgNosotros {
+        height: 200px;
+    }
+
+
+
+    .sectionNosotros .sectionNosotrosTextos h1 {
+
+        font-size: 40px;
+        margin-bottom: 60px;
+
+
+    }
+
+    .sectionNosotros .sectionNosotrosTextos .parrafo {
+        font-size: 13px;
+    }
+
+    .sectionNosotros .sectionNosotrosTextos .cont-vm h2 {
+        font-size: 28px;
+    }
+
+    .footerNosotros{
+	top: 550px;
+}
+
+//////////////////////////// Contacto ///////////////////
+
+.footerContacto{
+	top: 300px;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 576px){
+
+	   .menu-inicio li a{
+		font-size: 10px;
+	}
+
+
+	 .sectionGaleria h1{
+  	margin: 100px 0;
+  	font-size: 25px;
+  }
+  
+  .galeria .centrarh3 h3{
+   
+  	font-size: 10px;
+  	}
+
+  .galeria .centrarh3 h3 span {
+	border-bottom: 1px solid $base;
+}
+
+
+////////////////// Productos ///////////////////////////
+        
+       
+
+        .productosInicio  .card{
+		width: 40%;
+		margin: 15px 5px;
+		padding-top: 15px;
+		padding-bot: -50px;
+		
+
+
+	           img{
+		            width: 50%;
+		            margin: auto;
+		            padding-bot: -50px;
+		            // padding-left: 100px;
+	
+	         }
+
+	         .card-body{
+	         	padding-top: 0;
+	         }
+
+	        .card-body p{
+	         	font-size: 9px;
+	         	padding-top: 0;
+	         	margin: 0;
+	         }
+
+	    
+	}	
+
+
+
+	.contenedorProductos .imagenesProductos {
+		width: 50%;
+	}
+
+	 
+   
+   //////////// Nosotros ////////////////////
+
+
+   .imgNosotros {
+        height: 180px;
+    }
+
+
+     .sectionNosotros .sectionNosotrosTextos h1 {
+
+        font-size: 40px;
+        margin-bottom: 60px;
+
+
+    }
+
+    .sectionNosotros .sectionNosotrosTextos .parrafo {
+        font-size: 13px;
+    }
+
+    .sectionNosotros .sectionNosotrosTextos .cont-vm h2 {
+        font-size: 28px;
+    }
+
+
+   
+   .footerNosotros{
+	top: 650px;
+}
+
+
+/////////////////// Contacto ////////////////////////
+
+
+.btn-contact{
+	
+    width: 200px;
+    margin-left: 0;
+   
+}
+
+.footerContacto{
+	top: 400px;
+}
+
+
+	}
+
+
+
+@media screen and (max-width: 400px){
+	
+	.footerNosotros{
+     top: 850px;
+}
+
+
+}
+
+@media screen and (max-width: 300px){
+	
+	.footerNosotros{
+     top: 1200px;
+}
+
+
+}

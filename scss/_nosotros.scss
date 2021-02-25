@@ -1,0 +1,128 @@
+.mainNosotros{
+	min-height: 700px;
+	height: 1400px;
+}
+
+
+.imgNosotros{
+	width: 100%;
+	min-height: 100px;
+	height: 500px;
+	margin-bottom: 50px;
+	
+}
+
+
+
+.sectionNosotros{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #fff;
+	margin-bottom: 30px;
+	
+
+
+.sectionNosotrosLinks{
+    
+   margin-top: 80px;
+
+
+	.lists {
+		list-style: none;
+		padding-left: 0;
+
+
+		     .link-active{
+		     	border-bottom: 2px solid $base;
+		     }
+
+		
+			 .link-active a{ 
+
+			 	color: #343636;
+			 	font-weight: bold;
+
+
+		  }
+
+		  li{
+		  	padding: 12px 0px;
+		    line-height: 1;
+		    border-bottom: 1px solid transparent;
+		  }
+
+		 li:hover{
+		 	border-bottom: 2px solid $base;
+		 }
+
+		  li a {
+                 
+            text-decoration: none;
+		  	color: #343636;
+		  	
+		  }
+
+		  li a:hover{
+		  	color: #343636;
+		  	font-weight: bold;
+		  }
+
+
+		}
+	}
+
+	.sectionNosotrosTextos{
+  
+
+		h1{
+			font-size: 52px;
+			font-weight: bold;
+			color: #424143;
+			margin-bottom: 44px;
+			margin-top: 75px;
+			text-align: left;
+			line-height: 1;
+		}
+
+		.parrafo{  
+			font-family: 'Montserrat', sans-serif;
+			line-height: 1.5;
+			font-weight: 100;
+			text-align: left;
+			font-size: 15px;
+			margin-bottom: 45px;
+			margin-left: 0;
+			
+
+		}
+
+
+	    .cont-vm{
+	    	margin-bottom: 80px;
+	    	padding-left: 32px;
+	    	padding-top: 11px;
+	    	padding-bottom: 11px;
+	    	border-left: 5px solid $base;
+
+	    	h2{
+	    		font-size: 31px;
+	    		margin-top: 0;
+	    		margin-bottom: 30px;
+	    		padding-top: 10px;
+	    		padding-bottom: 10px;
+	    		font-wieght: bold;
+	    		color: #424143;
+	    		line-height: 1;
+
+	    	}
+
+	    	.parrafo{
+	    		margin-bottom: 10px;
+	    	}
+	    }
+	}
+
+}
+
+.footerNosotros{
+	top: 500px;
+}

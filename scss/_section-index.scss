@@ -1,0 +1,181 @@
+@mixin styleSection ($margin, $padding) {
+	margin: $margin;
+	padding: $padding;
+}
+
+// .estiloSection{
+// 	@include styleSection(5em, 1em);
+// }
+
+
+.backInLeft{
+           animation: backInLeft;
+	       animation-duration: 1s;
+	       animation-delay: 1.2s;
+           }
+
+
+// @mixin styleCards ($width, $display, $align, $padding){
+// 	width: $width;
+// 	display: $display;
+// 	align-items: $align;
+// 	padding-top: $padding;
+// }
+
+// .card-group{
+// 	.card{
+// 		@include styleCards(100%, flex, center, 20px);
+// 	}
+// }
+
+
+section{
+
+}
+
+h1 {
+	margin: 250px 0px;
+	font-size: 60px;
+	text-align: center;
+
+
+	span{
+		color: $base;
+		border-bottom: 3px solid $base;
+
+	}
+}
+
+//  .container-fluid{
+//   padding-right: 0;
+//   padding-left: 0;
+//   margin-right: 0;
+//   margin-left: 0;
+//      }
+
+// .row{
+// 	margin-right: 0;
+// 	margin-left: 0;
+	
+
+// }
+
+
+ // .contenedor{
+ // 	display: flex;
+ // 	width: 100%;
+ // 	justify-content: center;
+ // 	border: 2px solid red;
+ // }  
+
+.sectionGaleria{
+	
+
+}
+
+  .galeria {
+	
+	background-color: #080e05;
+	// border: 2px solid green;
+	width: 100%;
+	// border: 2px solid green;
+	display: flex;
+
+	.centrarh3{
+	width: 100%;
+	
+	display: flex;
+	
+
+	h3{
+		font-size: 40px;
+		color: #fff;
+		// border: 2px solid yellow;
+		height: 100px;
+		// align-self: center;
+		text-align: center;
+		margin: auto;
+
+		span{
+		color: $base;
+		border-bottom: 3px solid $base;
+
+	}
+}
+	
+}
+  
+
+
+	
+		
+}
+
+	.tumblr{
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  cursor: pointer;
+  opacity: .5;
+     
+
+	}
+
+
+	// .estiloSection{
+	// 	display: flex;
+	// justify-content: center;
+	// }
+
+
+.productosInicio{
+	width: 70%;
+	// font-family: 'Kufam', cursive;
+
+   
+   .cardGroup{
+   	display: flex;
+   	justify-content: center;
+
+   }
+	
+
+		.card{
+		width: 80%;
+		margin: 200px 5px;
+		padding-top: 20px;
+
+
+	           img{
+		            width: 40%;
+		            margin: auto;
+		            // padding-left: 100px;
+	
+	         }
+
+		p{
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 600;
+			font-size: 15px;
+		}
+
+
+	
+    
+
+    .card:hover{
+    	box-shadow: 2px 2px 10px #666;
+    	cursor: pointer;
+    	transform: scale(1.03);
+    
+
+	}
+
+	
+}
+
+    
+
+}
