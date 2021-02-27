@@ -13,13 +13,20 @@
   
   <!-- Meta Viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon -->
+  <link  rel="icon"   href="assets/img/favicon.png" type="image/png" />
   
   <!-- Fonts de Google -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
 
   <!-- Normalize -->
@@ -45,7 +52,7 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-xl-12">
+    <div class="col-12">
 
       <!-- Header -->
   
@@ -55,21 +62,13 @@
         <div class="container-fluid">
             <div class="row">
                 <!-- Logotipo -->
-                <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                <div class="col-2">
                   
-                    <a href="index.html" class="logo"><img src="assets/img/logo.png" class="" alt="Logo Soportec"></a>
+                    <a href="index.html" class="logo"><img src="assets/img/logo.svg" class="" alt="Logo TechWay"></a>
                     
                 </div>
-                <!-- Links de navegacion -->
-                <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 menu-inicio">
-                    <ul class="lista-menu">
-                        <li class="link-active"><a href="index.html">Inicio</a></li>
-                        <li><a href="assets/sitios/servicios.html">Servicios</a></li>
-                        <li><a href="assets/sitios/nosotros.html">Nosotros</a></li>
-                        <li><a href="assets/sitios/contacto.html">Contacto</a></li>
-                    </ul>
-                    <hr>
-                    <div class="container d-flex justify-content-center ">
+
+                <div class="col-1 col-md-1 col-lg-5 col-xl-5 d-flex searchBarCentrar">
                         <div class="input-group mb-3 searchBar">
                             
                             <input type="search" placeholder="Buscar..." class="form-control">
@@ -79,14 +78,26 @@
                            
                         </div>
                     </div>
+
+
+                <!-- Links de navegacion -->
+                <div class="col-9 col-md-9 col-lg-5 col-xl-5 menu-inicio">
+                    <ul class="lista-menu">
+                        <li class="link-active"><a href="index.html">Inicio</a></li>
+                        <li><a href="assets/sitios/servicios.html">Servicios</a></li>
+                        <li><a href="assets/sitios/nosotros.html">Nosotros</a></li>
+                        <li><a href="assets/sitios/contacto.html">Contacto</a></li>
+                    </ul>
+                    <hr>
+                    
                 </div>
-            </div>
+                            </div>
         </div>
         
 
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
-                <div class="col-2 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="col-12 col-md-2 d-flex centrarBoton">
                     <ul class="lista-menu">
                         <div class="contenedor-imagen">
                             <div class="dropdown">
@@ -102,37 +113,41 @@
                                     <a class="dropdown-item" href="assets/sitios/productos.html">PC Armadas</a>
                                 </div>
                             </div>
-                            <div class="hardware-img">
-                                <li><a><img src="assets/img/proce.png" alt="Procesador"></a></li>
-                                <p class="p-right5">Microprocesador</p>
-                            </div>
-                            <div class="hardware-img">
-                                <li><a><img src="assets/img/mother.png" alt="Motherboard"></a></li>
-                                <p class="p-right6">Motherboard</p>
-                            </div>
-                            <div class="hardware-img">
-                                <li><a><img src="assets/img/ram.png" class="ram" alt="Memoria RAM"></a></li>
-                                <p class="p-right10">Memoria RAM</p>
-                            </div>
-                            <div class="hardware-img">
-                                <li><a><img src="assets/img/gpu.png" alt="Placa de Video"></a></li>
-                                <p>Placa de Video</p>
-                            </div>
-                            <div class="hardware-img">
-                                <li><a><img src="assets/img/hd2.png" alt="Disco Duro"></a></li>
-                                <p class="p-right5">Almacenamiento</p>
-                            </div>
-                            <div class="hardware-img">
-                                <li><a><img src="assets/img/fuente-alimentacion.png" alt="Fuente"></a></li>
-                                <p class="p-right10">Fuente</p>
-                            </div>
-                            <div class="hardware-img">
-                                <li><a><img src="assets/img/monitor-ico.png" alt="Monitor"></a></li>
-                                <p class="p-right5">Monitor</p>
-                            </div>
+                            
                         </div>
                     </ul>
                 </div>
+
+                <div class="col-10 imagenesHardware zoom">
+                            <div class="hardware-img">
+                                <li><a><img src="assets/img/proce.png" class="img-fluid" alt="Procesador"></a></li>
+                                <p class="">Microprocesador</p>
+                            </div>
+                            <div class="hardware-img">
+                                <li><a><img src="assets/img/mother.png" class="img-fluid" alt="Motherboard"></a></li>
+                                <p class="">Motherboard</p>
+                            </div>
+                            <div class="hardware-img">
+                                <li><a><img src="assets/img/ram.png" class="ram img-fluid" alt="Memoria RAM"></a></li>
+                                <p class="">Memoria RAM</p>
+                            </div>
+                            <div class="hardware-img">
+                                <li><a><img src="assets/img/gpu.png" class="img-fluid" alt="Placa de Video"></a></li>
+                                <p>Placa de Video</p>
+                            </div>
+                            <div class="hardware-img">
+                                <li><a><img src="assets/img/hd2.png"  class="img-fluid" alt="Disco Duro"></a></li>
+                                <p class="">Almacenamiento</p>
+                            </div>
+                            <div class="hardware-img">
+                                <li><a><img src="assets/img/fuente-alimentacion.png" class="img-fluid" alt="Fuente"></a></li>
+                                <p class="">Fuente</p>
+                            </div>
+                            <div class="hardware-img">
+                                <li><a><img src="assets/img/monitor-ico.png" class="img-fluid" alt="Monitor"></a></li>
+                                <p class="">Monitor</p>
+                            </div>
+                            </div>
             </div>
         </div>
     </nav>
@@ -144,7 +159,7 @@
 
  <div class="container-fluid">
   <div class="row">
-    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <div class="col-12">
  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -175,10 +190,10 @@
 <section class="sectionGaleria">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+      <div class="col-12">
     <h1>Bienvenidos a <span class="txt-rotate"></span></h1>
     <div class="galeria">
-        <div class="centrarh3">
+        <div class="container centrarh3">
             <h3>Encontra lo que <span>buscas</span></h3>
         </div>
         <img src="assets/img/intel.jfif" class="tumblr" alt="Descripcion de la imagen">
@@ -195,29 +210,34 @@
 
 <!-- Cards con imágenes -->
 
- <div class="container-fluid">
-<section class="backInLeft estiloSection">
+ <div class="container">
+<section class="backInLeft"> <!-- estiloSection -->
+
 
    
-    <div class="row">
+    <div class="row  productosInicio">
       <!-- <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"> -->
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12  productosInicio">
+        <!-- <div class="col-12 productosInicio"> -->
     <!-- 
     <div class="card-group"> -->
-        <div class="cardGroup">
-
-        <div class="card col-md-12 col-lg-2">
+        <!-- <div class="cardGroup"> -->
+         
+         
+        <div class="card col-12 col-md-5 col-lg-2 col-xl-2">  <!-- col-md-12 col-lg-2 -->
             <img src="assets/img/monitor1.jpg" class="img-fluid" alt="...">
             <div class="card-body">
                 <br>
-                <p>Monitor Gamer ASUS 27" MG278Q-CF 144Hz WQHD 2K</p>
+                <p>Monitor Gamer ASUS 27" MG278Q-CF 144Hz WQHD 2K G Sync</p>
+                <a href="#" class="btn btn-primary">Agregar</a>
             </div>
         </div>
-        <div class="card col-lg-2">
+
+        <div class="card col-12 col-md-5 col-lg-2 col-xl-2"> <!--col-lg-2  -->
             <img src="assets/img/monitor2.jpg" class="img-fluid" alt="...">
             <div class="card-body">
                 <br>
                 <p>Monitor Gamer MSI 24" Optix MAG24C 144 Hz Curvo FreeSync 1ms</p>
+                <a href="#" class="btn btn-primary">Agregar</a>
             </div>
           </div>
        <!--  </div> -->
@@ -225,28 +245,74 @@
 
         <!-- <div class="card-group"> -->
 
-        <div class="card col-lg-2">
+
+        <div class="card col-12 col-md-5 col-lg-2 col-xl-2">  <!-- col-lg-2 -->
             <img src="assets/img/gpu1.jpg" class="img-fluid" alt="...">
             <div class="card-body">
                 <br>
                 <p>Placa de Video ASUS GeForce RTX 3090 24GB GDDR6X ROG STRIX GAMING OC</p>
+                <a href="#" class="btn btn-primary">Agregar</a>
             </div>
         </div>
-        <div class="card col-lg-2">
+        <div class="card col-12 col-md-5 col-lg-2 col-xl-2">  <!-- col-lg-2 -->
             <img src="assets/img/gpu2.jpg" class="img-fluid" alt="...">
             <div class="card-body">
                 <br>
                 <p>Placa de Video GeForce MSI GTX 1650 4GB GDDR5 Gaming</p>
+                <a href="#" class="btn btn-primary">Agregar</a>
             </div>
         </div>
 
-        </div>
+        <!-- </div> -->
         <!-- </div>
         -->
 
-
-        </div>
+   
+        
         <!-- </div> -->
+       
+    </div>
+
+    <div class="row productosInicio">
+        <div class="card col-12 col-md-5 col-lg-2 col-xl-2">  <!-- col-md-12 col-lg-2 -->
+            <img src="assets/img/monitor1.jpg" class="img-fluid" alt="...">
+            <div class="card-body">
+                <br>
+                <p>Monitor Gamer ASUS 27" MG278Q-CF 144Hz WQHD 2K G Sync</p>
+                <a href="#" class="btn btn-primary">Agregar</a>
+            </div>
+        </div>
+
+        <div class="card col-12 col-md-5 col-lg-2 col-xl-2"> <!--col-lg-2  -->
+            <img src="assets/img/monitor2.jpg" class="img-fluid" alt="...">
+            <div class="card-body">
+                <br>
+                <p>Monitor Gamer MSI 24" Optix MAG24C 144 Hz Curvo FreeSync 1ms</p>
+                <a href="#" class="btn btn-primary">Agregar</a>
+            </div>
+          </div>
+       <!--  </div> -->
+
+
+        <!-- <div class="card-group"> -->
+
+
+        <div class="card col-12 col-md-5 col-lg-2 col-xl-2">  <!-- col-lg-2 -->
+            <img src="assets/img/gpu1.jpg" class="img-fluid" alt="...">
+            <div class="card-body">
+                <br>
+                <p>Placa de Video ASUS GeForce RTX 3090 24GB GDDR6X ROG STRIX GAMING OC</p>
+                <a href="#" class="btn btn-primary">Agregar</a>
+            </div>
+        </div>
+        <div class="card col-12 col-md-5 col-lg-2 col-xl-2">  <!-- col-lg-2 -->
+            <img src="assets/img/gpu2.jpg" class="img-fluid" alt="...">
+            <div class="card-body">
+                <br>
+                <p>Placa de Video GeForce MSI GTX 1650 4GB GDDR5 Gaming</p>
+                <a href="#" class="btn btn-primary">Agregar</a>
+            </div>
+        </div>
     </div>
     
 </section>
@@ -258,7 +324,7 @@
 <footer>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+      <div class="col-12">
     <nav class="navbar navbar-expand-lg navbar-dark">
         
             <div class="collapse navbar-collapse list-footer" id="navbarNav">
@@ -291,9 +357,6 @@
             <li><i class="fab fa-whatsapp"></i></li>
         </ul>
     </div>
-    </div>
-    </div>
-     </div>
 </footer>
 </div>
 </div>

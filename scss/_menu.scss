@@ -12,46 +12,12 @@ $base: #FF063D;
 	transition: all.5s ease-in-out;
 }
 
-.p-right1{
-	padding-right: 1px;
-}
 
-.p-right2{
-	padding-right: 2px;
-}
 
-.p-right3{
-	padding-right: 3px;
-}
-
-.p-right4{
-	padding-right: 4px;
-}
-
-.p-right5{
-	padding-right: 5px;
-}
-
-.p-right6{
-	padding-right: 6px;
-}
-
-.p-right7{
-	padding-right: 7px;
-}
-
-.p-right8{
-	padding-right: 8px;
-}
-
-.p-right9{
-	padding-right: 9px;
-}
-
-.p-right10{
-	padding-right: 10px;
-}
-
+.col, .col-sm, .col-md, .col-lg, .col-xl, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .container-fluid, .container{
+	padding-left: 0;
+	padding-right: 0;
+} 
 
 
 .menu {
@@ -77,27 +43,13 @@ $base: #FF063D;
  	}
  }
 
- // .contenedor-imagen{
- // 	position: relative;
- // 	z-index: 100;
- // }
-
- // .carousel {
- // 	position: relative;
- // 	z-index: 0;
- // }
-
-
-   
-	
-
-
 
 	.menu-inicio 
 	    { margin: 0;
 	      margin-top: 12px;	
-		  // padding: 0;
+		  padding: 0;
 		  text-align: right;
+		 
 		  @extend.tSlow;
 		  .link-active{
 		  	a{
@@ -115,6 +67,7 @@ $base: #FF063D;
 		  li {
 		  	display: inline-block;
 		  	padding: 0 10px;
+
 
 		  	a{
 		  		position: relative;
@@ -181,18 +134,24 @@ $base: #FF063D;
 	}
 }
 
+.searchBarCentrar{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	// padding-right: 40px;
+	// margin-bottom: 20px;
+}
 
 .searchBar {
-	width: 50% !important;
-	margin-right: 300px;
-	display: flex;
-
+	width: 50%;
+  
 
 	.btn-primary {
     background-color: $base !important;
     border-radius: 3px;
     border: none;
     padding: 0 15px;
+    height: 40px;
 
 }
 
@@ -258,8 +217,8 @@ input.form-control:focus {
 
 	.btn { 
 		 		
-		 		border-right: 2px solid white; 
-		 		padding-right: 40px;
+		 		// border-right: 2px solid white; 
+		 		// padding-right: 40px;
 		 		margin-right: 20px;
 		 		outline: none !important;
 
@@ -318,68 +277,157 @@ input.form-control:focus {
 // 	}
 // }
 
+// .techwayLogo{
+// 	display: flex;
+// 	align-items: center;
+// }
 
 .logo {
       
-      width: 30%;
+      width: 100%;
+      // margin: 20px;
+      // padding: 20px;
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
 
 	img{
 		width: 70%;
 	}
 }
 
-
-.contenedor-imagen{
-	display: flex;
-	width: 100%;
-	
-	// border: 3px solid red;
+.centrarBoton{
 	justify-content: center;
-	margin-top: 50px;
+}
 
-   .hardware-img{
+.dropdown{
+   border-right: 2px solid #fff;
+   // margin-right: 10px;
+}
 
-    // border: 3px solid blue;
-   	
-   	height: 100px;
+.imagenesHardware{
+	display: flex;
+	justify-content: center;
+	
+	align-items: center;
 
 
-       li{
-		// border: 3px solid yellow;
+
+	.hardware-img{
+		margin: auto;
+	}
+
+	.hardware-img img{
+	width: 40%;
+	padding-bottom: 15px;
+
+	}
+
+	.hardware-img{
 		list-style: none;
 
-		a{
-			text-decoration: none;
-		}
-		
+	}
 
+	.hardware-img .zoom{
+		
+				transition: transform .9s;
+			
+	}
+
+	.hardware-img:hover{
+      cursor: pointer;
+    	transform: scale(1.03);
+	}
+
+	.hardware-img p:hover{
+		color: $base;
+	}
+
+
+	.hardware-img li a{
+
+		
+		display: flex;
+
+		justify-content: center;
+		
 		
 	}
-		
-       img{
-			// border: 3px solid green;
-			width: 50%;
-			display: block;
-			margin: 0 auto;
-			padding-bottom: 5px;
-	       }
 
-       .ram{
-         	align-self: flex-end;
-         	// border: 2px solid red;
-         	transform:translateY(10px);
-         }
+	.hardware-img p{
+		font-size: 12px;
+		color: #fff;
+		font-weight: 100;
+		font-family: 'Open sans';
+		margin-left: 0;
+		padding-left: 2px;
+	}
+
+
+
+	.ram{
+		align-self: center;
+		transform:translateY(10px);
+
+	}
+
+}
+
+
+
+ 
+
+// .contenedor-imagen{
+// 	display: flex;
+// 	width: 100%;
+	
+// 	// border: 3px solid red;
+// 	justify-content: center;
+// 	margin-top: 50px;
+
+//    .hardware-img{
+
+//     // border: 3px solid blue;
+   	
+//    	height: 100px;
+
+
+//        li{
+// 		// border: 3px solid yellow;
+// 		list-style: none;
+
+// 		a{
+// 			text-decoration: none;
+// 		}
+		
+
+		
+// 	}
+		
+//        img{
+// 			// border: 3px solid green;
+// 			width: 50%;
+// 			display: block;
+// 			margin: 0 auto;
+// 			padding-bottom: 5px;
+// 	       }
+
+//        .ram{
+//          	align-self: flex-end;
+//          	// border: 2px solid red;
+//          	transform:translateY(10px);
+//          }
 
          
 
-	   p{  
-		// border: 3px solid orange;
-		  padding-top: 5px;
-		  font-size: 14px;
-		  color: #f2f2f2;
-}
-}
-}
+// 	   p{  
+// 		// border: 3px solid orange;
+// 		  padding-top: 5px;
+// 		  font-size: 14px;
+// 		  color: #f2f2f2;
+// }
+// }
+// }
 
 
 	.tumblr:hover{

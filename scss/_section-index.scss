@@ -130,35 +130,89 @@ h1 {
 	// }
 
 
-.productosInicio{
-	width: 70%;
+.row .productosInicio{
+	
+	
+	margin:0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
 	// font-family: 'Kufam', cursive;
 
    
-   .cardGroup{
-   	display: flex;
-   	justify-content: center;
+   // .cardGroup{
+   // 	display: flex;
+   // 	justify-content: center;
 
-   }
+   // }
 	
 
 		.card{
-		width: 80%;
-		margin: 200px 5px;
+		width: 100%;
+		margin: 50px 10px;
 		padding-top: 20px;
+		display: flex;
+
 
 
 	           img{
-		            width: 40%;
+		            width: 70%;
 		            margin: auto;
 		            // padding-left: 100px;
 	
 	         }
 
+	    .card-body{
+	    	display: flex;
+	    	flex-direction: column;
+	    	justify-content: center;
+
+	    	.btn-primary{
+	    		background-color: $base;
+	    		border-color: $base;
+	    		padding: 5px 0;
+	    		margin: 0;
+	    	}
+
+	    	.btn{
+	    		font-family: 'Monserrat', sans-serif;
+	    		margin-right: 0;
+	    		padding-right: 0;
+	    		// border-right: 0;
+	    		font-size: 14px;
+	    		font-weight: 100;
+	    		border-radius: 0.75rem;
+	    		
+	    	}
+
+
+	    	.btn:hover{
+	    		background-color: #fff;
+	    		border-color: $base;
+	    		color: $base;
+	    	// 	outline: $base !important;
+      //          box-shadow: $base !important;
+	    	 }
+
+	    	.btn:active{
+                  color: #fff;
+  background-color: $base;
+  border-color: $base;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline: $base !important;
+  box-shadow: $base !important
+	    	}
+
+// 	    	.btn-outline-primary {
+//   color: $base;
+//   border-color: $base;
+// }
+	    }
+
 		p{
 			font-family: 'Open Sans', sans-serif;
 			font-weight: 600;
-			font-size: 15px;
+			font-size: 12px;
 		}
 
 

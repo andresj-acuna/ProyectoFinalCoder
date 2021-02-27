@@ -12,6 +12,9 @@
   
   <!-- Meta Viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon -->
+  <link  rel="icon"   href="../img/favicon.png" type="image/png" />
   
   <!-- Fonts de Google -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -61,46 +64,58 @@
   <div class="row">
     <div class="col-xl-12">
 
-    <!-- Header -->
+     <!-- Header -->
 
-      <header>
-        <nav class="menu">
-          <div class="container-fluid">
-        <div class="row">
-          
-            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
-                    <a href="../../index.html" class="logo">
-                        <img src="../img/logo.png" alt="Logo Soportec">
-                    </a>
+   <header>
+    <!-- Barra de Navegacion -->
+    <nav class="menu">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Logotipo -->
+                <div class="col-2">
+                  
+                    <a href="index.html" class="logo"><img src="../img/logo.svg" class="" alt="Logo TechWay"></a>
+                    
                 </div>
-                <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 menu-inicio">
-                    <ul>
+
+                <div class="col-1 col-md-1 col-lg-5 col-xl-5 d-flex searchBarCentrar">
+                        <div class="input-group mb-3 searchBar">
+                            
+                            <input type="search" placeholder="Buscar..." class="form-control">
+                            
+                          
+                            <button class="btn-primary"><i class="fas fa-search"></i></button>
+                           
+                        </div>
+                    </div>
+
+
+                <!-- Links de navegacion -->
+                <div class="col-9 col-md-9 col-lg-5 col-xl-5 menu-inicio">
+                    <ul class="lista-menu">
                         <li class="link-active"><a href="../../index.html">Inicio</a></li>
                         <li><a href="servicios.html">Servicios</a></li>
                         <li><a href="nosotros.html">Nosotros</a></li>
                         <li><a href="contacto.html">Contacto</a></li>
                     </ul>
                     <hr>
-                    <div class="container d-flex justify-content-center">
-                        <div class="input-group mb-3 searchBar">
-                            <input type="search" placeholder="Buscar..." class="form-control">
-                            <button class="btn-primary"><i class="fas fa-search"></i></button>
-                        </div>
-                    </div>
+                    
                 </div>
-            
-          </div>
+                            </div>
         </div>
+        
 
-         <div class="container-fluid">
+        <div class="container">
             <div class="row">
-                <div class="col-2 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <ul clas="lista-menu">
+                <div class="col-12 col-md-2 d-flex centrarBoton">
+                    <ul class="lista-menu">
                         <div class="contenedor-imagen">
                             <div class="dropdown">
+                              <!-- <div class="button"> -->
                                 <button class="btn btn-lg" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <i class="fas fa-bars"></i>
                                 </button>
+                              <!-- </div> -->
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                     <a class="dropdown-item" href="productos.html">Notebooks</a>
                                     <a class="dropdown-item" href="productos.html">Componentes</a>
@@ -108,45 +123,45 @@
                                     <a class="dropdown-item" href="productos.html">PC Armadas</a>
                                 </div>
                             </div>
-                            <div class="hardware-img">
-                                <li><a><img src="../img/proce.png" alt="Procesador"></a></li>
-                                <p class="p-right5">Microprocesador</p>
-                            </div>
-                            <div class="hardware-img">
-                                <li><a><img src="../img/mother.png" alt="Motherboard"></a></li>
-                                <p class="p-right6">Motherboard</p>
-                            </div>
-                            <div class="hardware-img">
-                                <li><a><img src="../img/ram.png" class="ram" alt="Memoria RAM"></a></li>
-                                <p class="p-right10">Memoria RAM</p>
-                            </div>
-                            <div class="hardware-img">
-                                <li><a><img src="../img/gpu.png" alt="Placa de Video"></a></li>
-                                <p>Placa de Video</p>
-                            </div>
-                            <div class="hardware-img">
-                                <li><a><img src="../img/hd2.png" alt="Disco Duro"></a></li>
-                                <p class="p-right5">Almacenamiento</p>
-                            </div>
-                            <div class="hardware-img">
-                                <li><a><img src="../img/fuente-alimentacion.png" alt="Fuente"></a></li>
-                                <p class="p-right10">Fuente</p>
-                            </div>
-                            <div class="hardware-img">
-                                <li><a><img src="../img/monitor-ico.png" alt="Monitor"></a></li>
-                                <p class="p-right5">Monitor</p>
-                            </div>
+                            
                         </div>
                     </ul>
                 </div>
+
+                <div class="col-10 imagenesHardware zoom">
+                            <div class="hardware-img">
+                                <li><a><img src="../img/proce.png" class="img-fluid" alt="Procesador"></a></li>
+                                <p class="">Microprocesador</p>
+                            </div>
+                            <div class="hardware-img">
+                                <li><a><img src="../img/mother.png" class="img-fluid" alt="Motherboard"></a></li>
+                                <p class="">Motherboard</p>
+                            </div>
+                            <div class="hardware-img">
+                                <li><a><img src="../img/ram.png" class="ram img-fluid" alt="Memoria RAM"></a></li>
+                                <p class="">Memoria RAM</p>
+                            </div>
+                            <div class="hardware-img">
+                                <li><a><img src="../img/gpu.png" class="img-fluid" alt="Placa de Video"></a></li>
+                                <p>Placa de Video</p>
+                            </div>
+                            <div class="hardware-img">
+                                <li><a><img src="../img/hd2.png"  class="img-fluid" alt="Disco Duro"></a></li>
+                                <p class="">Almacenamiento</p>
+                            </div>
+                            <div class="hardware-img">
+                                <li><a><img src="../img/fuente-alimentacion.png" class="img-fluid" alt="Fuente"></a></li>
+                                <p class="">Fuente</p>
+                            </div>
+                            <div class="hardware-img">
+                                <li><a><img src="../img/monitor-ico.png" class="img-fluid" alt="Monitor"></a></li>
+                                <p class="">Monitor</p>
+                            </div>
+                            </div>
             </div>
         </div>
-      </div>
     </nav>
-
-
-        
-      </header>
+</header>
 
        <!-- Section -->
 
@@ -236,7 +251,7 @@
 
       <footer class="container-fluid footerServicios">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="col-12">
              <nav class="navbar navbar-expand-lg navbar-dark">
         
             <div class="collapse navbar-collapse list-footer" id="navbarNav">
