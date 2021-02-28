@@ -14,21 +14,6 @@
 	       animation-delay: 1.2s;
            }
 
-
-// @mixin styleCards ($width, $display, $align, $padding){
-// 	width: $width;
-// 	display: $display;
-// 	align-items: $align;
-// 	padding-top: $padding;
-// }
-
-// .card-group{
-// 	.card{
-// 		@include styleCards(100%, flex, center, 20px);
-// 	}
-// }
-
-
 section{
 
 }
@@ -46,27 +31,6 @@ h1 {
 	}
 }
 
-//  .container-fluid{
-//   padding-right: 0;
-//   padding-left: 0;
-//   margin-right: 0;
-//   margin-left: 0;
-//      }
-
-// .row{
-// 	margin-right: 0;
-// 	margin-left: 0;
-	
-
-// }
-
-
- // .contenedor{
- // 	display: flex;
- // 	width: 100%;
- // 	justify-content: center;
- // 	border: 2px solid red;
- // }  
 
 .sectionGaleria{
 	
@@ -76,9 +40,9 @@ h1 {
   .galeria {
 	
 	background-color: #080e05;
-	// border: 2px solid green;
+	
 	width: 100%;
-	// border: 2px solid green;
+	
 	display: flex;
 
 	.centrarh3{
@@ -90,9 +54,9 @@ h1 {
 	h3{
 		font-size: 40px;
 		color: #fff;
-		// border: 2px solid yellow;
+		
 		height: 100px;
-		// align-self: center;
+		
 		text-align: center;
 		margin: auto;
 
@@ -124,10 +88,6 @@ h1 {
 	}
 
 
-	// .estiloSection{
-	// 	display: flex;
-	// justify-content: center;
-	// }
 
 
 .row .productosInicio{
@@ -137,14 +97,7 @@ h1 {
 	padding: 0;
 	display: flex;
 	justify-content: center;
-	// font-family: 'Kufam', cursive;
 
-   
-   // .cardGroup{
-   // 	display: flex;
-   // 	justify-content: center;
-
-   // }
 	
 
 		.card{
@@ -158,7 +111,7 @@ h1 {
 	           img{
 		            width: 70%;
 		            margin: auto;
-		            // padding-left: 100px;
+		            
 	
 	         }
 
@@ -178,7 +131,7 @@ h1 {
 	    		font-family: 'Monserrat', sans-serif;
 	    		margin-right: 0;
 	    		padding-right: 0;
-	    		// border-right: 0;
+	    	
 	    		font-size: 14px;
 	    		font-weight: 100;
 	    		border-radius: 0.75rem;
@@ -190,8 +143,7 @@ h1 {
 	    		background-color: #fff;
 	    		border-color: $base;
 	    		color: $base;
-	    	// 	outline: $base !important;
-      //          box-shadow: $base !important;
+	
 	    	 }
 
 	    	.btn:active{
@@ -203,10 +155,7 @@ h1 {
   box-shadow: $base !important
 	    	}
 
-// 	    	.btn-outline-primary {
-//   color: $base;
-//   border-color: $base;
-// }
+
 	    }
 
 		p{
