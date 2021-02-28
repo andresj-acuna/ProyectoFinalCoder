@@ -698,6 +698,8 @@ footer {
     margin-left: 20px; }
   .lista-menu {
     padding-inline-start: 0; }
+  .logo img {
+    width: 100%; }
   .sectionGaleria h1 {
     margin: 120px 0;
     font-size: 30px; }
@@ -763,6 +765,8 @@ footer {
     justify-content: flex-start; }
   .dropdown .btn-lg {
     font-size: 2rem; }
+  .logo img {
+    width: 100%; }
   .row .productosInicio .card {
     margin: 20px; }
   .row .productosInicio .card .card-body .btn {
