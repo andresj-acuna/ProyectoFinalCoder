@@ -634,9 +634,7 @@ footer {
   .galeria .centrarh3 h3 {
     font-size: 35px; }
   .imgNosotros {
-    height: 300px; }
-  .footerContacto {
-    top: 400px; } }
+    height: 300px; } }
 
 @media screen and (max-width: 992px) {
   .menu-inicio li a {
@@ -666,7 +664,9 @@ footer {
     font-size: 25px;
     padding-top: 20px; }
   .row .productosInicio .imgNosotros {
-    height: 250px; } }
+    height: 250px; }
+  .row .productosInicio .sectionNosotrosTextos {
+    margin-left: 30px; } }
 
 @media screen and (max-width: 992px) and (max-width: 768px) {
   .menu {
@@ -739,17 +739,15 @@ footer {
     font-size: 20px; }
   .imgNosotros {
     height: 200px; }
+  .sectionNosotrosTextos {
+    margin-left: 30px; }
   .sectionNosotros .sectionNosotrosTextos h1 {
     font-size: 40px;
     margin-bottom: 60px; }
   .sectionNosotros .sectionNosotrosTextos .parrafo {
     font-size: 13px; }
   .sectionNosotros .sectionNosotrosTextos .cont-vm h2 {
-    font-size: 28px; }
-  .footerNosotros {
-    top: 550px; }
-  .footerContacto {
-    top: 300px; } }
+    font-size: 28px; } }
 
 @media screen and (max-width: 576px) {
   .menu-inicio {

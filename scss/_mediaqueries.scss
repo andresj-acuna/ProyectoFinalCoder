@@ -502,9 +502,6 @@
 // /////////////////////// Contacto ////////////////////////
 
 
-.footerContacto{
- top: 400px;
-}
 
 }
 
@@ -576,6 +573,12 @@
 .imgNosotros {
         height: 250px;
     }
+
+.sectionNosotrosTextos{
+      margin-left: 30px;
+    }
+
+
 
   }
 
@@ -730,6 +733,11 @@
         height: 200px;
     }
 
+    .sectionNosotrosTextos{
+      margin-left: 30px;
+    }
+
+
 
 
     .sectionNosotros .sectionNosotrosTextos h1 {
@@ -748,15 +756,10 @@
         font-size: 28px;
     }
 
-    .footerNosotros{
- top: 550px;
-}
 
 //////////////////////////// Contacto ///////////////////
 
-.footerContacto{
- top: 300px;
-}
+
 
 }
 
