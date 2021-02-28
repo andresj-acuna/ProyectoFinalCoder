@@ -844,7 +844,11 @@
    .imgNosotros {
         height: 180px;
     }
+    
 
+    .sectionNosotrosTextos{
+      margin-left: 20px;
+    }
 
      .sectionNosotros .sectionNosotrosTextos h1 {
 
@@ -863,10 +867,10 @@
     }
 
 
+
+
    
-   .footerNosotros{
- top: 650px;
-}
+
 
 
 /////////////////// Contacto ////////////////////////
@@ -906,6 +910,14 @@
   .dropdown .btn-lg{
     font-size: 1.5rem;
     margin-left: 0;
+  }
+
+
+  //////////////////// Contacto //////////////////////
+
+
+  .sectionNosotrosTextos{
+    margin-left: 15px;
   }
 
 }

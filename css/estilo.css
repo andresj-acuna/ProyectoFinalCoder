@@ -786,6 +786,8 @@ footer {
     width: 50%; }
   .imgNosotros {
     height: 180px; }
+  .sectionNosotrosTextos {
+    margin-left: 20px; }
   .sectionNosotros .sectionNosotrosTextos h1 {
     font-size: 40px;
     margin-bottom: 60px; }
@@ -793,8 +795,6 @@ footer {
     font-size: 13px; }
   .sectionNosotros .sectionNosotrosTextos .cont-vm h2 {
     font-size: 28px; }
-  .footerNosotros {
-    top: 650px; }
   .btn-contact {
     width: 200px;
     margin-left: 0; }
@@ -810,4 +810,6 @@ footer {
     justify-content: flex-start; }
   .dropdown .btn-lg {
     font-size: 1.5rem;
-    margin-left: 0; } }
+    margin-left: 0; }
+  .sectionNosotrosTextos {
+    margin-left: 15px; } }
