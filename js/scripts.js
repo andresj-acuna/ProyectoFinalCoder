@@ -1,6 +1,6 @@
 (function($){
     var typed = new Typed ('span.txt-rotate',{
-   	strings: ["SOPORTEC!"],
+   	strings: ["TECHWAY!"],
    	typeSpeed: 100, 
    	backSpeed: 100,
    	fadeOut: false,

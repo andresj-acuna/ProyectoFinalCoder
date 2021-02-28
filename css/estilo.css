@@ -806,6 +806,8 @@ footer {
     padding: 0 3px; }
   .menu-inicio li a {
     font-size: 8px; }
+  .logo img {
+    width: 100%; }
   .centrarBoton {
     justify-content: flex-start; }
   .dropdown .btn-lg {
