@@ -318,7 +318,8 @@ h1 {
     .row .productosInicio .card p {
       font-family: 'Open Sans', sans-serif;
       font-weight: 600;
-      font-size: 12px; }
+      font-size: 12px;
+      padding-bottom: 10px; }
     .row .productosInicio .card .card:hover {
       box-shadow: 2px 2px 10px #666;
       cursor: pointer;
@@ -558,8 +559,7 @@ h1 {
   color: #fff;
   font-size: 19px;
   margin-bottom: 50px;
-  text-align: center;
-  padding-left: 30px; }
+  text-align: center; }
 
 .btn-contact:hover {
   color: #fff; }
@@ -633,6 +633,9 @@ footer {
     font-size: 45px; }
   .galeria .centrarh3 h3 {
     font-size: 35px; }
+  .row .productosInicio .card p {
+    margin: auto;
+    padding-bottom: 20px; }
   .imgNosotros {
     height: 300px; } }
 
@@ -700,7 +703,7 @@ footer {
     font-size: 30px; }
   .galeria .centrarh3 h3 {
     font-size: 12px;
-    margin-top: 110px; }
+    margin-top: 80px; }
   .galeria .centrarh3 h3 span {
     border-bottom: 2px solid #FF063D; }
   .container {
@@ -760,6 +763,10 @@ footer {
     justify-content: flex-start; }
   .dropdown .btn-lg {
     font-size: 2rem; }
+  .row .productosInicio .card {
+    margin: 20px; }
+  .row .productosInicio .card .card-body .btn {
+    width: 70px; }
   .productosInicio .card {
     width: 40%;
     margin: 15px 5px;

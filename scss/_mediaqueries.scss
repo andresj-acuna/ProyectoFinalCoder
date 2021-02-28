@@ -491,6 +491,11 @@
    font-size: 35px;
   }
 
+  .row .productosInicio .card p{
+    margin: auto;
+    padding-bottom: 20px;
+  }
+
 
  // /////////////////////// Nosotros /////////////////////////
 
@@ -649,7 +654,7 @@
   .galeria .centrarh3 h3{
 
    font-size: 12px;
-   margin-top: 110px;
+   margin-top: 80px;
    }
 .galeria .centrarh3 h3 span {
  border-bottom: 2px solid $base;
@@ -783,6 +788,15 @@
 
     .dropdown .btn-lg{
     font-size: 2rem;
+  }
+
+
+  .row .productosInicio .card{
+    margin: 20px;
+  }
+
+  .row .productosInicio .card .card-body .btn{
+    width: 70px;
   }
 
   ////////////////////// Productos ///////////////////////////
