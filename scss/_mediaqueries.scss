@@ -518,6 +518,22 @@
   }
 
 
+.centrarBoton{
+  
+  padding-bottom: 20px;
+
+}
+
+
+.imagenesHardware{
+  margin-left: 60px;
+}
+
+.imagenesHardware .hardware-img p{
+  font-size: 9px;
+}
+
+
 
      .sectionGaleria h1{
    margin: 150px 0;
@@ -568,12 +584,32 @@
  
 
 @media screen and (max-width: 768px){
+
+
+    .menu{
+      height: 120px;
+    }
+
+  .indexMenu{
+    padding-bottom: 0;
+    height: 60px;
+  }
+
+   
+
+    
+    .menu .container{
+      margin-left:0;
+    }
+
     .menu-inicio li a{
     font-size: 14px;
   }
 
   .dropdown .btn-lg{
-    font-size: 4rem;
+    font-size: 3rem;
+   margin-left: 10px;
+   
   }
 
   .hardware-img{
@@ -593,6 +629,7 @@
     justify-content: center;
     border-right: 0;
     margin-right: 0;
+    margin-left: 20px;
 
   }
   
@@ -600,12 +637,6 @@
     padding-inline-start: 0;
   }
 
-
-  .dropdown .btn-lg{
-    margin-left: 10px;
-   
-
-  }
 
   .sectionGaleria h1{
    margin: 120px 0;
@@ -732,11 +763,15 @@
 
 @media screen and (max-width: 576px){
      
+     .menu-inicio{
+      padding-right: 10px;
+     }
+
      .menu-inicio li{
         padding: 0 3px; 
       }
      .menu-inicio li a{
-    font-size: 10px;
+    font-size: 9px;
   }
 
   .centrarBoton{
@@ -744,7 +779,7 @@
 }
 
     .dropdown .btn-lg{
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   ////////////////////// Productos ///////////////////////////
@@ -834,7 +869,7 @@
 
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 375px){
       
      .menu-inicio li{
         padding: 0 3px; 
@@ -852,7 +887,8 @@
  
 
   .dropdown .btn-lg{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-left: 0;
   }
 
 }

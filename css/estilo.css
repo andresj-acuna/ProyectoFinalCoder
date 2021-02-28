@@ -46,8 +46,7 @@ div p {
 
 .menu {
   background-color: #000;
-  width: 100%;
-  border-bottom: 1px solid transparent; }
+  width: 100%; }
 
 .contenedor-imagen .hardware-img p:hover {
   color: #FF063D;
@@ -58,7 +57,8 @@ div p {
   margin: 0;
   margin-top: 12px;
   padding: 0;
-  text-align: right; }
+  text-align: right;
+  align-self: center; }
   .menu-inicio .link-active a {
     color: #FF063D !important; }
     .menu-inicio .link-active a:after {
@@ -164,6 +164,9 @@ input.form-control:focus {
   text-decoration: none;
   background-color: #FF063D; }
 
+.indexMenu {
+  padding-bottom: 30px; }
+
 .logo {
   width: 100%;
   display: flex;
@@ -173,7 +176,7 @@ input.form-control:focus {
     width: 70%; }
 
 .centrarBoton {
-  justify-content: center; }
+  padding-bottom: 30px; }
 
 .dropdown {
   border-right: 2px solid #fff; }
@@ -181,7 +184,8 @@ input.form-control:focus {
 .imagenesHardware {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-left: 30px; }
   .imagenesHardware .hardware-img {
     margin: auto; }
   .imagenesHardware .hardware-img img {
@@ -639,6 +643,12 @@ footer {
     font-size: 12px; }
   .searchBar {
     display: none; }
+  .centrarBoton {
+    padding-bottom: 20px; }
+  .imagenesHardware {
+    margin-left: 60px; }
+  .imagenesHardware .hardware-img p {
+    font-size: 9px; }
   .sectionGaleria h1 {
     margin: 150px 0;
     font-size: 40px; }
@@ -659,10 +669,18 @@ footer {
     height: 250px; } }
 
 @media screen and (max-width: 992px) and (max-width: 768px) {
+  .menu {
+    height: 120px; }
+  .indexMenu {
+    padding-bottom: 0;
+    height: 60px; }
+  .menu .container {
+    margin-left: 0; }
   .menu-inicio li a {
     font-size: 14px; }
   .dropdown .btn-lg {
-    font-size: 4rem; }
+    font-size: 3rem;
+    margin-left: 10px; }
   .hardware-img {
     display: none; }
   .container {
@@ -673,11 +691,10 @@ footer {
     display: flex;
     justify-content: center;
     border-right: 0;
-    margin-right: 0; }
+    margin-right: 0;
+    margin-left: 20px; }
   .lista-menu {
     padding-inline-start: 0; }
-  .dropdown .btn-lg {
-    margin-left: 10px; }
   .sectionGaleria h1 {
     margin: 120px 0;
     font-size: 30px; }
@@ -735,14 +752,16 @@ footer {
     top: 300px; } }
 
 @media screen and (max-width: 576px) {
+  .menu-inicio {
+    padding-right: 10px; }
   .menu-inicio li {
     padding: 0 3px; }
   .menu-inicio li a {
-    font-size: 10px; }
+    font-size: 9px; }
   .centrarBoton {
     justify-content: flex-start; }
   .dropdown .btn-lg {
-    font-size: 3rem; }
+    font-size: 2rem; }
   .productosInicio .card {
     width: 40%;
     margin: 15px 5px;
@@ -777,7 +796,7 @@ footer {
   .footerContacto {
     top: 400px; } }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 375px) {
   .menu-inicio li {
     padding: 0 3px; }
   .menu-inicio li a {
@@ -785,4 +804,5 @@ footer {
   .centrarBoton {
     justify-content: flex-start; }
   .dropdown .btn-lg {
-    font-size: 2rem; } }
+    font-size: 1.5rem;
+    margin-left: 0; } }
