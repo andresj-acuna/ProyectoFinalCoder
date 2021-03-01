@@ -188,6 +188,7 @@ input.form-control:focus {
 
 .logo {
   width: 100%;
+  height: 6em;
   display: flex;
   align-items: center;
   margin-left: 20px; }
