@@ -1,185 +1,170 @@
-@mixin styleSection ($margin, $padding) {
-	margin: $margin;
-	padding: $padding;
+.backInLeft {
+    animation: backInLeft;
+    animation-duration: 1s;
+    animation-delay: 1.2s;
 }
 
-// .estiloSection{
-// 	@include styleSection(5em, 1em);
-// }
 
-
-.backInLeft{
-           animation: backInLeft;
-	       animation-duration: 1s;
-	       animation-delay: 1.2s;
-           }
-
-section{
-
-}
 
 h1 {
-	margin: 250px 0px;
-	font-size: 60px;
-	text-align: center;
+    margin: 250px 0px;
+    font-size: 60px;
+    text-align: center;
 
 
-	span{
-		color: $base;
-		border-bottom: 3px solid $base;
+    span {
+        color: $base;
+        border-bottom: 3px solid $base;
 
-	}
+    }
 }
 
 
-.sectionGaleria{
-	
+
+
+.galeria {
+
+    background-color: #080e05;
+
+    width: 100%;
+
+    display: flex;
+
+    .centrarh3 {
+        width: 100%;
+
+        display: flex;
+
+
+        h3 {
+            font-size: 40px;
+            color: #fff;
+
+            height: 100px;
+
+            text-align: center;
+            margin: auto;
+
+            span {
+                color: $base;
+                border-bottom: 3px solid $base;
+
+            }
+        }
+
+    }
+
+
+
+
+
+}
+
+.tumblr {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    cursor: pointer;
+    opacity: .5;
+
 
 }
 
-  .galeria {
-	
-	background-color: #080e05;
-	
-	width: 100%;
-	
-	display: flex;
-
-	.centrarh3{
-	width: 100%;
-	
-	display: flex;
-	
-
-	h3{
-		font-size: 40px;
-		color: #fff;
-		
-		height: 100px;
-		
-		text-align: center;
-		margin: auto;
-
-		span{
-		color: $base;
-		border-bottom: 3px solid $base;
-
-	}
-}
-	
-}
-  
-
-
-	
-		
-}
-
-	.tumblr{
-  position: relative;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 20%;
-  cursor: pointer;
-  opacity: .5;
-     
-
-	}
 
 
 
+.row .productosInicio {
 
-.row .productosInicio{
-	
-	
-	margin:0;
-	padding: 0;
-	display: flex;
-	justify-content: center;
 
-	
-
-		.card{
-		width: 100%;
-		margin: 50px 10px;
-		padding-top: 20px;
-		display: flex;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 
 
 
-	           img{
-		            width: 70%;
-		            margin: auto;
-		            
-	
-	         }
-
-	    .card-body{
-	    	display: flex;
-	    	flex-direction: column;
-	    	justify-content: center;
-
-	    	.btn-primary{
-	    		background-color: $base;
-	    		border-color: $base;
-	    		padding: 5px 0;
-	    		margin: 0;
-	    	}
-
-	    	.btn{
-	    		font-family: 'Monserrat', sans-serif;
-	    		margin-right: 0;
-	    		padding-right: 0;
-	    	
-	    		font-size: 14px;
-	    		font-weight: 100;
-	    		border-radius: 0.75rem;
-	    		
-	    	}
+    .card {
+        width: 100%;
+        margin: 50px 10px;
+        padding-top: 20px;
+        display: flex;
 
 
-	    	.btn:hover{
-	    		background-color: #fff;
-	    		border-color: $base;
-	    		color: $base;
-	
-	    	 }
 
-	    	.btn:active{
-                  color: #fff;
-  background-color: $base;
-  border-color: $base;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  outline: $base !important;
-  box-shadow: $base !important
-	    	}
+        img {
+            width: 70%;
+            margin: auto;
 
 
-	    }
+        }
 
-		p{
-			font-family: 'Open Sans', sans-serif;
-			font-weight: 600;
-			font-size: 12px;
-			padding-bottom: 10px;
-		}
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .btn-primary {
+                background-color: $base;
+                border-color: $base;
+                padding: 5px 0;
+                margin: 0;
+            }
+
+            .btn {
+                font-family: 'Monserrat', sans-serif;
+                margin-right: 0;
+                padding-right: 0;
+
+                font-size: 14px;
+                font-weight: 100;
+                border-radius: 0.75rem;
+
+            }
 
 
-	
-    
+            .btn:hover {
+                background-color: #fff;
+                border-color: $base;
+                color: $base;
 
-    .card:hover{
-    	box-shadow: 2px 2px 10px #666;
-    	cursor: pointer;
-    	transform: scale(1.03);
-    
+            }
 
-	}
+            .btn:active {
+                color: #fff;
+                background-color: $base;
+                border-color: $base;
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                outline: $base !important;
+                box-shadow: $base !important
+            }
 
-	
-}
 
-    
+        }
+
+        p {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            font-size: 12px;
+            padding-bottom: 10px;
+        }
+
+
+
+
+
+        .card:hover {
+            box-shadow: 2px 2px 10px #666;
+            cursor: pointer;
+            transform: scale(1.03);
+
+
+        }
+
+
+    }
+
+
 
 }

@@ -36,11 +36,29 @@ div p {
   animation-duration: 1s;
   animation-iteration-count: 1; }
 
-/* Funciones */
+/* Variable */
 .tSlow, .contenedor-imagen .hardware-img p:hover, .menu-inicio, .menu-inicio .link-active a:after, .menu-inicio li a, .menu-inicio li a:before, .menu-inicio li a:after, .redes-sociales li, .redes-sociales li i {
   transition: all 0.5s ease-in-out; }
 
-.col, .col-sm, .col-md, .col-lg, .col-xl, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .container-fluid, .container {
+.col,
+.col-sm,
+.col-md,
+.col-lg,
+.col-xl,
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12,
+.container-fluid,
+.container {
   padding-left: 0;
   padding-right: 0; }
 
@@ -159,7 +177,8 @@ input.form-control:focus {
 .dropdown-item {
   font-size: 15px; }
 
-.dropdown-item:hover, .dropdown-item:focus {
+.dropdown-item:hover,
+.dropdown-item:focus {
   color: #fff;
   text-decoration: none;
   background-color: #FF063D; }
@@ -216,25 +235,6 @@ input.form-control:focus {
 
 .tumblr:hover {
   opacity: 1; }
-
-.estiloNav {
-  font-size: 1em;
-  margin: 1em; }
-
-.heightNav {
-  height: 7em; }
-
-.logo {
-  height: 6em; }
-
-.margenListado {
-  margin-right: 2em; }
-
-.redesPadding {
-  padding-right: 15px; }
-
-.paddingCarrusel {
-  padding-right: 0.3em; }
 
 .backInLeft {
   animation: backInLeft;
@@ -410,16 +410,6 @@ h1 {
   margin-left: 40px;
   text-align: left; }
 
-.imagenServicio1 {
-  margin: 50px 0;
-  margin-left: 40px;
-  width: 20%;
-  position: absolute;
-  z-index: 100;
-  opacity: 0.5;
-  display: flex;
-  justify-content: flex-end; }
-
 .sectionArmado {
   background-color: #f2f2f2;
   position: relative;
@@ -531,7 +521,8 @@ h1 {
 
 .form-group {
   margin-bottom: 30px; }
-  .form-group input, .form-group textarea {
+  .form-group input,
+  .form-group textarea {
     width: 100%;
     height: 44px;
     padding: 10px 20px;
@@ -543,7 +534,9 @@ h1 {
     height: 100px; }
   .form-group ::placeholder {
     font-size: 15px; }
-  .form-group textarea:focus, .form-group input:focus, .form-group input[type]:focus {
+  .form-group textarea:focus,
+  .form-group input:focus,
+  .form-group input[type]:focus {
     background-color: #fff;
     border-color: #FF063D;
     border: 2px solid #FF063D;
@@ -810,9 +803,7 @@ footer {
     font-size: 28px; }
   .btn-contact {
     width: 200px;
-    margin-left: 0; }
-  .footerContacto {
-    top: 400px; } }
+    margin-left: 0; } }
 
 @media screen and (max-width: 375px) {
   .menu-inicio li {

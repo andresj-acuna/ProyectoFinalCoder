@@ -5,96 +5,93 @@
     display: flex;
     justify-content: left;
 
-    .titulosProductos{
-    	width: 30%;
-    
+    .titulosProductos {
+        width: 30%;
 
-    h2 {
-        font-size: 30px;
+
+        h2 {
+            font-size: 30px;
+        }
+
+        hr {
+            width: 180px;
+
+            height: 10px;
+            display: inline-block;
+        }
+
+
+
+        h4 {
+
+            margin-top: 20px;
+            font-size: 20px;
+            color: $base;
+
+        }
+
+        label {
+            display: inline;
+        }
+
+
+
+        ul {
+
+            padding-inline-start: 0;
+
+
+            li {
+                list-style: none;
+
+                a {
+
+                    color: #000;
+                }
+
+
+            }
+        }
     }
 
-    hr {
-        width: 180px;
-        // justify-content: left;
-        height: 10px;
-        display: inline-block;
-    }
-
-    
-
-    h4 {
-        // justify-content: left;
-        margin-top: 20px;
-        font-size: 20px;
-        color: $base;
-
-    }
-
-    label {
-    	display: inline;
-    }
-
-    
-
-    ul{
-      
-          padding-inline-start: 0;
+    .imagenesProductos {
+        width: 70%;
 
 
-    li{
-    	list-style: none;
+        .card {
+            width: 100%;
+            margin: 10px 10px;
 
-    	a{
-    		
-    		color: #000;
-    	}
+            img {
+                width: 60%;
+                margin: auto;
+                padding-top: 10px;
 
-
-      }
-  }
-}
-
-.imagenesProductos{
-	width: 70%;
-	// font-family: 'Kufam', cursive;
+                .zoom {
+                    transition: transform .9s;
+                }
 
 
-	// .card-group .card
+            }
 
-	.card{
-		width: 100%;
-		margin: 10px 10px;
-
-	           img{
-		            width: 60%;
-                    margin: auto;
-                    padding-top: 10px;
-	
-	           .zoom{
-				transition: transform .9s;
-			}
+            p {
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 600;
+            }
+        }
 
 
-		}
+        .card:hover {
+            box-shadow: 2px 2px 10px #666;
+            cursor: pointer;
+            transform: scale(1.03);
+        }
 
-		p{
-			font-family: 'Open Sans', sans-serif;
-			font-weight: 600;
-		}
-	}
-    
 
-    .card:hover{
-    	box-shadow: 2px 2px 10px #666;
-    	cursor: pointer;
-    	transform: scale(1.03);
+
+
     }
 
 
-    
 
-}
-
-
-    
 }
