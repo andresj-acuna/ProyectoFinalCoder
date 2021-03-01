@@ -773,7 +773,8 @@ footer {
   .row .productosInicio .card {
     margin: 20px; }
   .row .productosInicio .card .card-body .btn {
-    width: 70px; }
+    width: 70px;
+    font-size: 15px; }
   .productosInicio .card {
     width: 40%;
     margin: 15px 5px;
