@@ -774,7 +774,8 @@ footer {
     margin: 20px; }
   .row .productosInicio .card .card-body .btn {
     width: 70px;
-    font-size: 15px; }
+    font-size: 15px;
+    font-weight: 700; }
   .productosInicio .card {
     width: 40%;
     margin: 15px 5px;
@@ -823,7 +824,8 @@ footer {
   .dropdown .btn-lg {
     font-size: 1.5rem;
     margin-left: 0; }
-  .productosInicio .card .card-body .btn {
-    font-size: 14px; }
+  .row .productosInicio .card .card-body .btn {
+    font-size: 14px;
+    font-weight: 700; }
   .sectionNosotrosTextos {
     margin-left: 15px; } }
