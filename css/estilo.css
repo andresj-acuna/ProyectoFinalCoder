@@ -584,6 +584,9 @@ footer {
   background-color: #080e05;
   overflow: hidden; }
 
+.margenListado {
+  margin-right: 2em; }
+
 .copyright {
   display: flex;
   justify-content: center;
