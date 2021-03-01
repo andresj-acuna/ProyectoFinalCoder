@@ -760,13 +760,16 @@ footer {
   .menu-inicio li {
     padding: 0 3px; }
   .menu-inicio li a {
-    font-size: 9px; }
+    font-size: 12px; }
   .centrarBoton {
     justify-content: flex-start; }
   .dropdown .btn-lg {
     font-size: 2rem; }
   .logo img {
     width: 100%; }
+  .sectionGaleria h1 {
+    margin: 100px 0;
+    font-size: 25px; }
   .row .productosInicio .card {
     margin: 20px; }
   .row .productosInicio .card .card-body .btn {
@@ -809,13 +812,17 @@ footer {
   .menu-inicio li {
     padding: 0 3px; }
   .menu-inicio li a {
-    font-size: 8px; }
+    font-size: 11px; }
   .logo img {
     width: 100%; }
   .centrarBoton {
     justify-content: flex-start; }
+  .sectionGaleria h1 {
+    margin: 80px 0; }
   .dropdown .btn-lg {
     font-size: 1.5rem;
     margin-left: 0; }
+  .productosInicio .card .card-body .btn {
+    font-size: 14px; }
   .sectionNosotrosTextos {
     margin-left: 15px; } }

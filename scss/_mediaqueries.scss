@@ -783,7 +783,7 @@
         padding: 0 3px; 
       }
      .menu-inicio li a{
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .centrarBoton{
@@ -795,6 +795,11 @@
   }
   .logo img {
    width: 100%;
+  }
+
+     .sectionGaleria h1{
+   margin: 100px 0;
+   font-size: 25px;
   }
 
   .row .productosInicio .card{
@@ -903,7 +908,7 @@
       }
 
      .menu-inicio li a{
-    font-size: 8px;
+    font-size: 11px;
      
   }
 
@@ -915,11 +920,21 @@
 .centrarBoton{
   justify-content: flex-start;
 }
+
+
+   .sectionGaleria h1{
+   margin: 80px 0;
+  
+  }
  
 
   .dropdown .btn-lg{
     font-size: 1.5rem;
     margin-left: 0;
+  }
+
+  .productosInicio .card .card-body .btn {
+    font-size: 14px;
   }
 
 
